@@ -1,6 +1,6 @@
 package com.java.algorithm.sort.test;
 
-import com.java.algorithm.sort.InsertionSort;
+import com.java.algorithm.sort.ShellSort;
 
 import java.util.Arrays;
 import java.util.Random;
@@ -37,7 +37,8 @@ public class DataChecker {
             Arrays.sort(arr);
             //SelectionSort.sort(arr2);
             //BubbleSort.sort(arr2);
-            InsertionSort.sort(arr2);
+            //InsertionSort.sort(arr2);
+            ShellSort.sort(arr2);
 
             for (int i = 0; i < arr2.length; i++) {
                 if (arr[i].compareTo(arr2[i]) != 0) {
