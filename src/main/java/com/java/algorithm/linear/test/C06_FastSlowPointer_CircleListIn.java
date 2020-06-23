@@ -15,7 +15,7 @@ package com.java.algorithm.linear.test;
 当快慢指针相遇时，我们可以判断到链表中有环，这时重新设定一个新指针指向链表的起点，且步长与慢指针一样
 为1，则慢指针与“新”指针相遇的地方就是环的入口。证明这一结论牵涉到数论的知识，这里略，只讲实现。
  */
-public class C05_FastSlowPointer_CircleListIn {
+public class C06_FastSlowPointer_CircleListIn {
     public static void main(String[] args) {
         Node<String> first = new Node<String>("aa", null);
         Node<String> second = new Node<String>("bb", null);
