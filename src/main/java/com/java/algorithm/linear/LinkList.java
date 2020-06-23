@@ -11,7 +11,7 @@ import java.util.Iterator;
  * @Description:
  */
 
-//单向列表代码
+//单向链表代码
 public class LinkList<T> implements Iterable<T> {
 
     //记录头结点
