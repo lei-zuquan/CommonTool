@@ -1,6 +1,6 @@
 package com.java.algorithm.sort.test;
 
-import com.java.algorithm.sort.MergeSort;
+import com.java.algorithm.sort.QuickSort;
 
 import java.util.Arrays;
 import java.util.Random;
@@ -39,7 +39,8 @@ public class DataChecker {
             //BubbleSort.sort(arr2);
             //InsertionSort.sort(arr2);
             //ShellSort.sort(arr2);
-            MergeSort.sort(arr2);
+            //MergeSort.sort(arr2);
+            QuickSort.sort(arr2);
 
             for (int i = 0; i < arr2.length; i++) {
                 if (arr[i].compareTo(arr2[i]) != 0) {
